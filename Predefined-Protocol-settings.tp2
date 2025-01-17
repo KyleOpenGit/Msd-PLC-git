@@ -1,0 +1,302 @@
+[Head]
+	Information:
+		Packege Name	QFBP
+		Packege Type	SC
+		Major Version	2
+		Minor Version	23Z
+		Use Major Version	2
+		Use Minor Version	23Z
+		File Version	1
+	Project:
+		Project Name	Predefined-Protocol-settings.tp2
+		Project Type	USER
+		Project Comment	
+		Last Update	2025/01/03
+[DATA00]
+	Data Information:
+		XY Address	   0
+	Protocol Data:
+		Use Protocol No	1
+		Protocol Name	03: RD Holding Registers
+		Protocol Type	0
+		Maker Name	General-purpose protocol
+		Kind Name	Communication protocol
+		Model Type	MODBUS/TCP
+		Communication Type	2
+		Send Packet No00	1
+		Receive Packet No00	2
+		Receive Packet No01	3
+		Receive Packet No02	NULL
+		Receive Packet No03	NULL
+		Receive Packet No04	NULL
+		Receive Packet No05	NULL
+		Receive Packet No06	NULL
+		Receive Packet No07	NULL
+		Receive Packet No08	NULL
+		Receive Packet No09	NULL
+		Receive Packet No10	NULL
+		Receive Packet No11	NULL
+		Receive Packet No12	NULL
+		Receive Packet No13	NULL
+		Receive Packet No14	NULL
+		Receive Packet No15	NULL
+		Buffer Clear	0
+		Retry Count	0
+		Retry Timer	0
+		Stand by Time	0
+		Watch Time	0
+		Reception Time	0
+	Protocol Macro Data:
+		Macro Notation Version	257
+		Macro Definition File Version	0
+		Macro Maker Number	32513
+		Macro Kind Number	22
+		Macro Model Number	1
+		Macro Version	1
+		Macro Explanation	
+		Macro Protocol No	3
+		Macro Send Packet No00	7
+		Macro Receive Packet No00	8
+		Macro Receive Packet No01	9
+		Macro Receive Packet No02	NULL
+		Macro Receive Packet No03	NULL
+		Macro Receive Packet No04	NULL
+		Macro Receive Packet No05	NULL
+		Macro Receive Packet No06	NULL
+		Macro Receive Packet No07	NULL
+		Macro Receive Packet No08	NULL
+		Macro Receive Packet No09	NULL
+		Macro Receive Packet No10	NULL
+		Macro Receive Packet No11	NULL
+		Macro Receive Packet No12	NULL
+		Macro Receive Packet No13	NULL
+		Macro Receive Packet No14	NULL
+		Macro Receive Packet No15	NULL
+	Packet Data:
+		Use Packet No	1
+		Macro Packet No	7
+		Packet Name	Request
+		Packet Type	0
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Transaction ID
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	1
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Protocol ID
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	32
+		Element Number	3
+		Element Name	Length
+		Code Type	2
+		Data Length	2
+		First Element	4
+		Last Element	7
+		Order Data	0
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Module ID
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	101
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	5
+		Element Name	Function Code
+		Code Type	2
+		Value	03
+	Element Data:
+		Frame Type	65
+		Element Number	6
+		Element Name	Head holding register number
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	102
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	65
+		Element Number	7
+		Element Name	Read points
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	103
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Packet Data:
+		Use Packet No	2
+		Macro Packet No	8
+		Packet Name	Normal response
+		Packet Type	1
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Transaction ID
+		Mode	0
+		Device Code	0
+		Device EX Code	0
+		Device No	0
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Protocol ID
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	32
+		Element Number	3
+		Element Name	Length
+		Code Type	2
+		Data Length	2
+		First Element	4
+		Last Element	7
+		Order Data	0
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Module ID
+		Mode	0
+		Device Code	0
+		Device EX Code	0
+		Device No	0
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	5
+		Element Name	Function Code
+		Code Type	2
+		Value	03
+	Element Data:
+		Frame Type	32
+		Element Number	6
+		Element Name	Number of read bytes
+		Code Type	2
+		Data Length	1
+		First Element	7
+		Last Element	7
+		Order Data	0
+	Element Data:
+		Frame Type	73
+		Element Number	7
+		Element Name	Device data
+		Mode	1
+		Device Code	0
+		Device EX Code	0
+		Device No	0
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	250
+		Storage Unit	0
+		Byte Swap	1
+	Packet Data:
+		Use Packet No	3
+		Macro Packet No	9
+		Packet Name	Error response
+		Packet Type	1
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Transaction ID
+		Mode	0
+		Device Code	0
+		Device EX Code	0
+		Device No	0
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Protocol ID
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	32
+		Element Number	3
+		Element Name	Length
+		Code Type	2
+		Data Length	2
+		First Element	4
+		Last Element	6
+		Order Data	0
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Module ID
+		Mode	0
+		Device Code	0
+		Device EX Code	0
+		Device No	0
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	5
+		Element Name	Function Code
+		Code Type	2
+		Value	83
+	Element Data:
+		Frame Type	65
+		Element Number	6
+		Element Name	Exception Code
+		Mode	0
+		Device Code	0
+		Device EX Code	0
+		Device No	0
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+[END]
